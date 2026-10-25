@@ -1,0 +1,110 @@
+name: Daily trading report
+
+on:
+  schedule:
+    # UTC 00:30 = 北京时间08:30，周二至周六；程序再按交易所日历跳过休市。
+    - cron: '30 0 * * 2-6'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'requirements.txt'
+      - '.github/workflows/daily-report.yml'
+
+concurrency:
+  group: daily-trading-report
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    outputs:
+      generated: ${{ steps.report.outputs.generated }}
+      status: ${{ steps.report.outputs.status }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install calendar dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Test
+        run: python -m unittest discover -s tests -v
+      - name: Generate report
+        id: report
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1' }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT_NAME" = "schedule" ]; then
+            python -m scripts.generate_report
+          else
+            python -m scripts.generate_report --force
+          fi
+      - name: Preserve dated reports
+        if: steps.report.outputs.generated == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/
+          if ! git diff --cached --quiet; then
+            git commit -m 'reports: update daily trading report'
+            git push origin HEAD:main
+          fi
+      - name: Archive generated files
+        if: steps.report.outputs.generated == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: trading-report-${{ github.run_id }}
+          path: site/
+          retention-days: 30
+      - name: Upload website
+        if: steps.report.outputs.generated == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/
+      - name: Record report outcome
+        env:
+          REPORT_STATUS: ${{ steps.report.outputs.status }}
+        run: |
+          echo "Report status: $REPORT_STATUS" >> "$GITHUB_STEP_SUMMARY"
+          if [ "$REPORT_STATUS" = "partial" ] || [ "$REPORT_STATUS" = "failed" ]; then
+            echo '::warning::Report is incomplete. Inspect the published status and source errors.'
+          fi
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.generated == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  verify:
+    needs: [build, deploy]
+    if: always() && needs.build.outputs.generated == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check generation and deployment outcomes
+        env:
+          REPORT_STATUS: ${{ needs.build.outputs.status }}
+          DEPLOY_RESULT: ${{ needs.deploy.result }}
+        run: |
+          if [ "$REPORT_STATUS" != "complete" ] || [ "$DEPLOY_RESULT" != "success" ]; then
+            echo '::error::Daily report or delivery is not fully verified; see report status and deployment logs.'
+            exit 1
+          fi
