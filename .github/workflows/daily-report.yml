@@ -56,7 +56,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add reports/
+          git add reports/ LATEST_REPORT.md
           if ! git diff --cached --quiet; then
             git commit -m 'reports: update daily trading report'
             git push origin HEAD:main
@@ -84,7 +84,7 @@ jobs:
 
   deploy:
     needs: build
-    if: needs.build.outputs.generated == 'true'
+    if: needs.build.outputs.generated == 'true' && vars.ENABLE_PAGES == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -103,8 +103,13 @@ jobs:
         env:
           REPORT_STATUS: ${{ needs.build.outputs.status }}
           DEPLOY_RESULT: ${{ needs.deploy.result }}
+          PAGES_ENABLED: ${{ vars.ENABLE_PAGES }}
         run: |
-          if [ "$REPORT_STATUS" != "complete" ] || [ "$DEPLOY_RESULT" != "success" ]; then
+          if [ "$REPORT_STATUS" != "complete" ]; then
             echo '::error::Daily report or delivery is not fully verified; see report status and deployment logs.'
+            exit 1
+          fi
+          if [ "$PAGES_ENABLED" = "true" ] && [ "$DEPLOY_RESULT" != "success" ]; then
+            echo '::error::Optional Pages deployment failed. The fixed GitHub report remains available.'
             exit 1
           fi

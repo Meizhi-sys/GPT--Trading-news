@@ -2,7 +2,9 @@
 
 固定网页展示最新日报，历史报告可下载 Markdown/JSON。重点关注 MU、MRNA、半导体存储、黄金、布伦特及宏观新闻。
 
-**目前状态：代码、离线验证及一次真实行情采集已完成；当前机器缺少新闻服务凭证，真实新闻生成及 GitHub Pages 上线尚未验证。提交代码不等于已开通每日投递。**
+**收藏 [最新日报](https://github.com/Meizhi-sys/GPT--Trading-news/blob/main/LATEST_REPORT.md)**：这是 GitHub 直接渲染的固定入口，不需要启用 Pages。独立 HTML 网站为可选项。
+
+**目前状态：55 项离线测试通过，首次 GitHub Actions 的安装、测试、真实行情采集和归档成功；runner 确认缺少新闻服务凭证，完整新闻尚未验证。首次 Pages 发布因未启用 Pages 失败，现默认用 GitHub 固定入口交付。实际定时触发仍待下个符合条件的交易日验证。**
 
 ## 你的交付与筛选设置
 
@@ -13,16 +15,19 @@
 
 完整需求见 [NEWS_REPORT_REQUIREMENTS.md](NEWS_REPORT_REQUIREMENTS.md)。
 
-## 上线前需要完成的设置
+## 完成新闻生成
 
 1. 在 [Actions Secrets](https://github.com/Meizhi-sys/GPT--Trading-news/settings/secrets/actions) 确认已有或添加 `OPENAI_API_KEY`，已有可用绑定则复用，不重复创建。**只在 GitHub 安全设置中填写，不要放入代码或聊天。** 此方案使用 OpenAI API 的联网检索生成中文摘要，需要对应 API 账户有可用额度，可能产生费用；ChatGPT 订阅不自动包含 API 额度。模型默认 `gpt-4.1`，可在 Actions Variables 设置 `OPENAI_MODEL`，替代模型须支持 Responses、web search 和结构化输出。
-2. 在 [Pages 设置](https://github.com/Meizhi-sys/GPT--Trading-news/settings/pages) 将 **Build and deployment → Source** 设为 **GitHub Actions**。若当前仓库的可见性/套餐不支持 Pages，先解决该限制；不要为了上线擅自公开私人仓库。
-3. 在 [Actions](https://github.com/Meizhi-sys/GPT--Trading-news/actions) 启用工作流（若被禁用），打开 **Daily trading report → Run workflow**，选择 `main` 手动运行一次。手动运行会为最近一个已完成交易日生成报告，周末也可用于验证。
-4. 检查 `build`、`deploy`、`verify` 均成功。`deploy` 给出的 **实际 page_url** 才是可以收藏的网页入口；不要把预测的网址当成已上线链接。打开网页核对报告日期、行情截至时间、状态和来源，并验证一次下载。
+2. 在 [Actions](https://github.com/Meizhi-sys/GPT--Trading-news/actions) 打开 **Daily trading report → Run workflow**，选择 `main` 手动运行一次。手动运行会为最近一个已完成交易日生成报告，周末也可用于验证。
+3. 检查 `build`、`verify` 均成功；默认 `deploy` 跳过。打开上面的“最新日报”入口，核对报告日期、行情截至时间、状态和来源。内容不全时仍明确显示缺失，不能视为完整上线。
 
-没有 API 密钥或数据源访问失败时，程序只发布明确的缺失状态，不生成假新闻。`verify` 会将不完整报告或发布失败标为失败。Actions 的文件制品保留 30 天，日报 JSON 也会由机器人提交到 `reports/`，用于长期归档；受保护分支如拒绝机器人提交，需要配置合适的写入权限，不能跳过权限限制。
+## 可选：启用独立 HTML 网站
 
-当前云机器现已真实读取行情和 GitHub 仓库元数据，但启用 Pages、列出 Secrets 和读取 Actions 管理设置返回 `Resource not accessible by integration`（403），因此未能代为启用 Pages 或验证运行，也不能断言仓库没有既有 Secrets。所需 `api.github.com`、`query1.finance.yahoo.com`、`query2.finance.yahoo.com`、`api.openai.com` 已加入**云环境网络配置草稿**；草稿尚需在环境设置中审阅、保存并发布，当前可访问的证据不等于已完成发布。这与 GitHub Actions 的网络和 Secrets 是不同设置。
+若希望使用带排版、行情表格和归档导航的独立网站，在 [Pages 设置](https://github.com/Meizhi-sys/GPT--Trading-news/settings/pages) 将 **Build and deployment → Source** 设为 **GitHub Actions**，再在 Actions Variables 设置 `ENABLE_PAGES=true` 并重跑。若仓库可见性/套餐不支持 Pages，先解决该限制，不自动改变私人仓库的可见性。`deploy` 成功返回的实际 `page_url` 才是网站地址，不能把预测的网址当成已经上线。
+
+没有 API 密钥或数据源访问失败时，程序只发布明确的缺失状态，不生成假新闻。`verify` 会将不完整报告或已启用的 Pages 发布失败标为失败。Actions 的文件制品保留 30 天，日报 JSON 也会由机器人提交到 `reports/`，最新 Markdown 同步到 `LATEST_REPORT.md`；受保护分支如拒绝机器人提交，需要配置合适的写入权限，不能跳过权限限制。
+
+当前云机器已真实读取行情、仓库元数据和工作流结果；启用 Pages、列出 Secrets 和读取 Actions 管理设置返回 `Resource not accessible by integration`（403），因此未能代为启用 Pages。缺少新闻密钥由实际 runner 的缺失状态确认。所需 `api.github.com`、`query1.finance.yahoo.com`、`query2.finance.yahoo.com`、`api.openai.com` 已加入**云环境网络配置草稿**；草稿尚需在环境设置中审阅、保存并发布，当前可访问的证据不等于已完成发布。这与 GitHub Actions 的网络和 Secrets 是不同设置。
 
 ## 数据来源与限制
 
@@ -51,6 +56,7 @@ python3 -m venv .venv
 输出：
 
 - `reports/YYYY-MM-DD.json`：按北京时间日期归档的真实结果及缺失说明。
+- `LATEST_REPORT.md`：自动提交到 GitHub 的固定日报入口。
 - `site/index.html`：最新一期，含时间、状态和历史入口。
 - `site/report.md` / `site/report.json`：最新一期下载。
 - `site/reports/YYYY-MM-DD/`：各期网页与下载。

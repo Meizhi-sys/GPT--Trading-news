@@ -184,8 +184,13 @@ def main() -> int:
     parser.add_argument("--force", action="store_true", help="手动为最近已完成交易日生成一期")
     parser.add_argument("--reports-dir", type=Path, default=Path("reports"))
     parser.add_argument("--site-dir", type=Path, default=Path("site"))
+    parser.add_argument("--latest-md", type=Path, default=Path("LATEST_REPORT.md"),
+                        help="固定 GitHub 日报入口，无需 Pages 也能查看")
     args = parser.parse_args()
     result = run(datetime.now(timezone.utc), args.reports_dir, args.site_dir, args.force)
+    if result["generated"]:
+        args.latest_md.parent.mkdir(parents=True, exist_ok=True)
+        args.latest_md.write_text((args.site_dir / "report.md").read_text(encoding="utf-8"), encoding="utf-8")
     print(json.dumps(result, ensure_ascii=False))
     if output := os.environ.get("GITHUB_OUTPUT"):
         with open(output, "a", encoding="utf-8") as handle:
