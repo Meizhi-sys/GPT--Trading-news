@@ -1,10 +1,10 @@
-# 交易晨报 · 2026-10-31
+# 交易晨报 · 2026-11-03
 
 状态：部分资料缺失
 
-美股交易日：2026-10-30  
-实际生成：2026-10-31T06:07:54.723348+00:00  
-行情截至：2026-10-31T06:07:54.723348+00:00  
+美股交易日：2026-11-02  
+实际生成：2026-11-03T07:07:14.908669+00:00  
+行情截至：2026-11-03T07:07:14.908669+00:00  
 最近成功更新：—
 
 > 本期资料不完整。报告日期不代表缺失行情已更新，详见数据缺失说明。
@@ -13,18 +13,18 @@
 
 | 标的 | 价格 / 美元 | 日变动 | 成交量 | 行情时点 | 来源 |
 | --- | ---: | ---: | ---: | --- | --- |
-| MU | $884.74 | -5.30% | 30,523,122 | 2026-10-30T20:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&range=3mo&includePrePost=false>) |
-| MRNA | $221.72 | -0.47% | 8,988,811 | 2026-10-30T20:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/MRNA?interval=1d&range=3mo&includePrePost=false>) |
-| SPY | $755.72 | -1.77% | 77,142,196 | 2026-10-30T20:00:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/SPY?interval=1d&range=3mo&includePrePost=false>) |
-| QQQ | $690.49 | -3.47% | 84,754,440 | 2026-10-30T20:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/QQQ?interval=1d&range=3mo&includePrePost=false>) |
-| SOXX | $471.51 | -8.24% | 18,730,584 | 2026-10-30T20:00:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/SOXX?interval=1d&range=3mo&includePrePost=false>) |
+| MU | $833.59 | -5.78% | 29,868,539 | 2026-11-02T21:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&range=3mo&includePrePost=false>) |
+| MRNA | $220.83 | -0.40% | 8,438,210 | 2026-11-02T21:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/MRNA?interval=1d&range=3mo&includePrePost=false>) |
+| SPY | $752.10 | -0.48% | 50,778,592 | 2026-11-02T21:00:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/SPY?interval=1d&range=3mo&includePrePost=false>) |
+| QQQ | $681.09 | -1.36% | 54,716,423 | 2026-11-02T21:00:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/QQQ?interval=1d&range=3mo&includePrePost=false>) |
+| SOXX | $453.65 | -3.79% | 10,802,222 | 2026-11-02T21:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/SOXX?interval=1d&range=3mo&includePrePost=false>) |
 
 ## 黄金与布伦特 · 期货口径
 
 | 标的 | 价格 / 美元 | 日变动 | 成交量 | 行情时点 | 来源 |
 | --- | ---: | ---: | ---: | --- | --- |
-| GC=F | $3,898.90 | -3.29% | 230,038 | 2026-10-30T20:59:59+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?interval=1d&range=3mo&includePrePost=false>) |
-| BZ=F | $113.43 | -1.26% | 37,539 | 2026-10-30T20:59:57+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=3mo&includePrePost=false>) |
+| GC=F | $3,922.50 | -1.19% | 33,191 | 2026-11-03T06:57:05+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?interval=1d&range=3mo&includePrePost=false>) |
+| BZ=F | $106.53 | +1.68% | 5,180 | 2026-11-03T06:56:53+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=3mo&includePrePost=false>) |
 
 期货不等于现货；合约换月可能影响价格及收益可比性。
 
@@ -34,16 +34,16 @@ Yahoo 当日涨幅榜最多 250 个样本中符合条件的前 10
 
 | # | 股票 | 收盘价 | 涨幅 | 成交量 | 成交额 / 美元 | 市值 / 美元 | 催化 / 来源 |
 | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| 1 | CDNA · CareDx, Inc. | $87.41 | +22.22% | 3,552,531 | $310,526,734.71（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $4,522,088,960.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 2 | CPRI · Capri Holdings Limited | $18.68 | +16.31% | 9,807,470 | $183,203,539.60（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $2,144,391,296.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 3 | FDXF · FedEx Freight Holding Company, Inc. | $126.04 | +14.91% | 3,596,222 | $453,267,820.88（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $18,845,265,920.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 4 | MEOH · Methanex Corporation | $71.57 | +14.04% | 2,713,909 | $194,234,467.13（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $5,536,960,512.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 5 | REGN · Regeneron Pharmaceuticals, Inc. | $927.89 | +13.33% | 2,851,725 | $2,646,087,110.25（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $95,530,909,696.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 6 | CVCO · Cavco Industries, Inc. | $619.00 | +13.11% | 246,977 | $152,878,763.00（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $4,759,739,904.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 7 | GPN · Global Payments Inc. | $96.84 | +12.97% | 16,725,396 | $1,619,687,348.64（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $25,625,643,008.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 8 | BTSG · BrightSpring Health Services, Inc. | $66.89 | +11.08% | 5,913,908 | $395,581,306.12（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $13,235,138,560.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 9 | GDDY · GoDaddy Inc. | $117.24 | +10.72% | 3,574,679 | $419,095,365.96（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $14,848,176,128.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 10 | OLN · Olin Corporation | $17.60 | +9.66% | 6,670,997 | $117,409,547.20（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $2,006,091,776.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 1 | IDXX · IDEXX Laboratories, Inc. | $671.64 | +21.85% | 1,977,294 | $1,328,029,742.16（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $52,980,977,664.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 2 | NXT · Nextpower Inc. | $91.13 | +14.87% | 5,509,418 | $502,073,262.34（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $14,001,062,912.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 3 | PHIN · PHINIA Inc. | $70.79 | +12.51% | 616,751 | $43,659,803.29（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $2,545,585,664.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 4 | SFM · Sprouts Farmers Market, Inc. | $55.23 | +11.13% | 8,667,725 | $478,718,451.75（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $5,094,008,320.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 5 | SAM · The Boston Beer Company, Inc. | $221.37 | +9.96% | 346,021 | $76,598,668.77（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $2,246,918,400.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 6 | AIN · Albany International Corp. | $73.47 | +9.66% | 584,956 | $42,976,717.32（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $2,085,486,080.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 7 | MGRC · McGrath RentCorp | $129.44 | +9.44% | 1,247,058 | $161,419,187.52（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $3,153,720,832.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 8 | ESAB · ESAB Corporation | $76.30 | +9.37% | 1,333,204 | $101,723,465.20（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $4,743,404,032.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 9 | LOAR · Loar Holdings Inc. | $67.91 | +9.34% | 2,302,549 | $156,366,102.59（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $6,362,384,384.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 10 | NSP · Insperity, Inc. | $53.18 | +9.24% | 656,564 | $34,916,073.52（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $2,025,950,848.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
 
 - 仅为 Yahoo day\_gainers 有限样本，不能称为过滤后的全市场前 10。
 - EQUITY 分类包含普通股和 ADR，但不能完全识别优先股等特殊证券；需核查证券类型。
