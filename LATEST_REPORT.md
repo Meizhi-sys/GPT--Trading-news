@@ -1,10 +1,10 @@
-# 交易晨报 · 2026-11-10
+# 交易晨报 · 2026-11-11
 
 状态：部分资料缺失
 
-美股交易日：2026-11-09  
-实际生成：2026-11-10T07:38:00.496643+00:00  
-行情截至：2026-11-10T07:38:00.496643+00:00  
+美股交易日：2026-11-10  
+实际生成：2026-11-11T06:56:54.917105+00:00  
+行情截至：2026-11-11T06:56:54.917105+00:00  
 最近成功更新：—
 
 > 本期资料不完整。报告日期不代表缺失行情已更新，详见数据缺失说明。
@@ -13,18 +13,18 @@
 
 | 标的 | 价格 / 美元 | 日变动 | 成交量 | 行情时点 | 来源 |
 | --- | ---: | ---: | ---: | --- | --- |
-| MU | $733.15 | +6.25% | 31,809,245 | 2026-11-09T21:00:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&range=3mo&includePrePost=false>) |
-| MRNA | $269.00 | +5.83% | 12,325,083 | 2026-11-09T21:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/MRNA?interval=1d&range=3mo&includePrePost=false>) |
-| SPY | $752.69 | +2.37% | 48,888,639 | 2026-11-09T21:00:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/SPY?interval=1d&range=3mo&includePrePost=false>) |
-| QQQ | $679.35 | +3.54% | 54,176,627 | 2026-11-09T21:00:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/QQQ?interval=1d&range=3mo&includePrePost=false>) |
-| SOXX | $146.76 | +7.49% | 39,477,498 | 2026-11-09T21:00:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/SOXX?interval=1d&range=3mo&includePrePost=false>) |
+| MU | $725.11 | -1.10% | 28,264,244 | 2026-11-10T21:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&range=3mo&includePrePost=false>) |
+| MRNA | $250.83 | -6.75% | 11,129,237 | 2026-11-10T21:00:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/MRNA?interval=1d&range=3mo&includePrePost=false>) |
+| SPY | $749.92 | -0.37% | 39,682,369 | 2026-11-10T21:00:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/SPY?interval=1d&range=3mo&includePrePost=false>) |
+| QQQ | $674.76 | -0.68% | 38,579,087 | 2026-11-10T21:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/QQQ?interval=1d&range=3mo&includePrePost=false>) |
+| SOXX | $146.59 | -0.12% | 36,447,896 | 2026-11-10T21:00:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/SOXX?interval=1d&range=3mo&includePrePost=false>) |
 
 ## 黄金与布伦特 · 期货口径
 
 | 标的 | 价格 / 美元 | 日变动 | 成交量 | 行情时点 | 来源 |
 | --- | ---: | ---: | ---: | --- | --- |
-| GC=F | $4,128.20 | +0.33% | 31,984 | 2026-11-10T07:28:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?interval=1d&range=3mo&includePrePost=false>) |
-| BZ=F | $91.45 | -1.21% | 3,668 | 2026-11-10T07:27:42+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=3mo&includePrePost=false>) |
+| GC=F | $4,064.60 | +0.85% | 28,814 | 2026-11-11T06:46:53+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?interval=1d&range=3mo&includePrePost=false>) |
+| BZ=F | $92.46 | +1.06% | 2,056 | 2026-11-11T06:46:12+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=3mo&includePrePost=false>) |
 
 期货不等于现货；合约换月可能影响价格及收益可比性。
 
@@ -34,16 +34,16 @@ Yahoo 当日涨幅榜最多 250 个样本中符合条件的前 10
 
 | # | 股票 | 收盘价 | 涨幅 | 成交量 | 成交额 / 美元 | 市值 / 美元 | 催化 / 来源 |
 | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| 1 | FRVO · Fervo Energy Company | $11.38 | +26.09% | 23,954,835 | $272,606,022.30（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $3,354,405,376.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 2 | PRAX · Praxis Precision Medicines, Inc. | $332.97 | +19.94% | 1,068,413 | $355,749,476.61（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $9,296,518,144.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 3 | QXO · QXO, Inc. | $13.78 | +19.20% | 42,132,309 | $580,583,218.02（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $14,296,621,056.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 4 | WRBY · Warby Parker Inc. | $30.21 | +18.56% | 11,377,189 | $343,704,879.69（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $3,755,543,296.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 5 | FLY · Firefly Aerospace Inc. | $24.31 | +17.10% | 8,671,852 | $210,812,722.12（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $4,069,606,656.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 6 | COHR · Coherent Corp. | $225.19 | +16.79% | 14,926,300 | $3,361,253,497.00（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $44,353,122,304.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 7 | MPWR · Monolithic Power Systems, Inc. | $1,388.05 | +16.60% | 1,662,243 | $2,307,276,396.15（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $67,692,425,216.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 8 | VSAT · Viasat, Inc. | $74.37 | +16.29% | 4,519,038 | $336,080,856.06（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $10,244,899,840.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 9 | FPS · Forgent Power Solutions, Inc. | $22.60 | +16.02% | 11,266,548 | $254,623,984.80（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $7,209,056,768.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 10 | UI · Ubiquiti Inc. | $685.68 | +15.66% | 165,367 | $113,388,844.56（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $41,469,571,072.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 1 | AAON · AAON, Inc. | $75.01 | +19.31% | 5,024,111 | $376,858,566.11（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $6,184,847,872.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 2 | CSQR · Csquare, Inc. | $17.52 | +14.73% | 6,628,461 | $116,130,636.72（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $2,919,427,584.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 3 | ACAD · Acadia Pharmaceuticals Inc. | $18.28 | +10.79% | 6,354,150 | $116,153,862.00（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $3,159,313,920.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 4 | CHTR · Charter Communications, Inc. | $134.06 | +10.61% | 4,373,533 | $586,315,833.98（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $24,003,651,584.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 5 | TTWO · Take-Two Interactive Software, Inc. | $224.64 | +8.31% | 8,434,598 | $1,894,748,094.72（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $42,003,288,064.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 6 | ZETA · Zeta Global Holdings Corp. | $35.07 | +8.17% | 11,435,430 | $401,040,530.10（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $8,741,464,064.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 7 | LQDA · Liquidia Corporation | $51.40 | +7.37% | 2,847,088 | $146,340,323.20（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $4,600,756,736.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 8 | EMBJ · Embraer S.A. | $82.50 | +7.05% | 3,545,500 | $292,503,750.00（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $14,681,559,040.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 9 | TNGX · Tango Therapeutics, Inc. | $24.30 | +6.86% | 4,560,772 | $110,826,759.60（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $4,117,760,512.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 10 | RKLB · Rocket Lab Corporation | $62.71 | +6.54% | 32,029,544 | $2,008,572,704.24（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $40,097,464,320.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
 
 - 仅为 Yahoo day\_gainers 有限样本，不能称为过滤后的全市场前 10。
 - EQUITY 分类包含普通股和 ADR，但不能完全识别优先股等特殊证券；需核查证券类型。
