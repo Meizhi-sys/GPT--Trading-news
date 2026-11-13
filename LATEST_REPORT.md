@@ -1,10 +1,10 @@
-# 交易晨报 · 2026-11-12
+# 交易晨报 · 2026-11-13
 
 状态：部分资料缺失
 
-美股交易日：2026-11-11  
-实际生成：2026-11-12T07:32:49.239466+00:00  
-行情截至：2026-11-12T07:32:49.239466+00:00  
+美股交易日：2026-11-12  
+实际生成：2026-11-13T07:03:52.838886+00:00  
+行情截至：2026-11-13T07:03:52.838886+00:00  
 最近成功更新：—
 
 > 本期资料不完整。报告日期不代表缺失行情已更新，详见数据缺失说明。
@@ -13,18 +13,18 @@
 
 | 标的 | 价格 / 美元 | 日变动 | 成交量 | 行情时点 | 来源 |
 | --- | ---: | ---: | ---: | --- | --- |
-| MU | $811.30 | +11.89% | 35,547,757 | 2026-11-11T21:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&range=3mo&includePrePost=false>) |
-| MRNA | $248.69 | -0.85% | 7,553,975 | 2026-11-11T21:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/MRNA?interval=1d&range=3mo&includePrePost=false>) |
-| SPY | $759.81 | +1.32% | 37,707,134 | 2026-11-11T21:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/SPY?interval=1d&range=3mo&includePrePost=false>) |
-| QQQ | $690.38 | +2.31% | 42,821,615 | 2026-11-11T21:00:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/QQQ?interval=1d&range=3mo&includePrePost=false>) |
-| SOXX | $155.40 | +6.01% | 48,930,559 | 2026-11-11T21:00:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/SOXX?interval=1d&range=3mo&includePrePost=false>) |
+| MU | $798.44 | -1.59% | 26,957,110 | 2026-11-12T21:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&range=3mo&includePrePost=false>) |
+| MRNA | $231.35 | -6.97% | 6,956,651 | 2026-11-12T21:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/MRNA?interval=1d&range=3mo&includePrePost=false>) |
+| SPY | $757.12 | -0.35% | 37,043,281 | 2026-11-12T21:00:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/SPY?interval=1d&range=3mo&includePrePost=false>) |
+| QQQ | $688.17 | -0.32% | 36,073,858 | 2026-11-12T21:00:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/QQQ?interval=1d&range=3mo&includePrePost=false>) |
+| SOXX | $154.99 | -0.26% | 51,159,364 | 2026-11-12T21:00:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/SOXX?interval=1d&range=3mo&includePrePost=false>) |
 
 ## 黄金与布伦特 · 期货口径
 
 | 标的 | 价格 / 美元 | 日变动 | 成交量 | 行情时点 | 来源 |
 | --- | ---: | ---: | ---: | --- | --- |
-| GC=F | $3,967.20 | -0.83% | 36,937 | 2026-11-12T07:22:44+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?interval=1d&range=3mo&includePrePost=false>) |
-| BZ=F | $93.30 | +0.58% | 2,491 | 2026-11-12T07:22:11+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=3mo&includePrePost=false>) |
+| GC=F | $3,900.30 | +0.39% | 44,512 | 2026-11-13T06:53:48+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?interval=1d&range=3mo&includePrePost=false>) |
+| BZ=F | $96.51 | +0.72% | 2,862 | 2026-11-13T06:52:26+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=3mo&includePrePost=false>) |
 
 期货不等于现货；合约换月可能影响价格及收益可比性。
 
@@ -34,16 +34,16 @@ Yahoo 当日涨幅榜最多 250 个样本中符合条件的前 10
 
 | # | 股票 | 收盘价 | 涨幅 | 成交量 | 成交额 / 美元 | 市值 / 美元 | 催化 / 来源 |
 | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| 1 | CRWV · CoreWeave, Inc. | $60.77 | +24.71% | 158,080,488 | $9,606,551,255.76（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $33,516,877,824.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 2 | AZTA · Azenta, Inc. | $48.90 | +20.80% | 2,485,615 | $121,546,573.50（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $2,142,230,400.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 3 | AXTI · AXT, Inc. | $46.97 | +19.49% | 14,719,564 | $691,377,921.08（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $3,079,973,888.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 4 | REZI · Resideo Technologies, Inc. | $23.00 | +18.25% | 7,491,771 | $172,310,733.00（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $3,492,489,728.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 5 | EQPT · EquipmentShare.com Inc. | $15.99 | +18.14% | 6,656,661 | $106,440,009.39（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $4,051,481,600.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 6 | LGN · Legence Corp. | $37.09 | +15.73% | 3,054,389 | $113,287,288.01（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $6,093,328,384.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 7 | AAOI · Applied Optoelectronics, Inc. | $55.86 | +15.60% | 15,472,015 | $864,266,757.90（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $5,070,453,248.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 8 | NBIS · Nebius Group N.V. | $154.69 | +15.44% | 38,897,144 | $6,016,999,205.36（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $39,275,511,808.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 9 | AXGN · Axogen, Inc. | $58.63 | +15.21% | 4,412,988 | $258,733,486.44（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $3,502,011,904.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 10 | FPS · Forgent Power Solutions, Inc. | $24.57 | +14.39% | 11,853,397 | $291,237,964.29（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $7,837,456,384.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 1 | MBGL · Mobility Global, Inc. | $23.13 | +16.11% | 7,285,764 | $168,519,721.32（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $7,401,599,488.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 2 | CHA · Chagee Holdings Limited | $13.51 | +9.57% | 2,437,429 | $32,929,665.79（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $2,577,212,672.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 3 | BLTE · Belite Bio, Inc | $169.96 | +8.99% | 495,510 | $84,216,879.60（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $6,844,654,080.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 4 | DPC · DPC Holdings PLC | $34.33 | +8.36% | 2,957,043 | $101,515,286.19（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $5,128,663,040.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 5 | LUNR · Intuitive Machines, Inc. | $13.03 | +6.98% | 27,756,263 | $361,664,106.89（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $2,103,210,880.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 6 | IBP · Installed Building Products, Inc. | $223.76 | +6.79% | 661,115 | $147,931,092.40（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $5,947,201,536.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 7 | HUBS · HubSpot, Inc. | $215.84 | +6.39% | 2,391,062 | $516,086,822.08（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $10,540,861,440.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 8 | FIGR · Figure Technology Solutions, Inc. | $25.67 | +6.12% | 10,683,813 | $274,253,479.71（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $5,759,779,840.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 9 | AMD · Advanced Micro Devices, Inc. | $585.30 | +5.86% | 55,014,886 | $32,200,212,775.80（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $959,943,081,984.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 10 | LMND · Lemonade, Inc. | $42.96 | +5.66% | 1,811,782 | $77,834,154.72（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $3,347,495,424.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
 
 - 仅为 Yahoo day\_gainers 有限样本，不能称为过滤后的全市场前 10。
 - EQUITY 分类包含普通股和 ADR，但不能完全识别优先股等特殊证券；需核查证券类型。
