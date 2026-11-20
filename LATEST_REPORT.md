@@ -1,10 +1,10 @@
-# 交易晨报 · 2026-11-19
+# 交易晨报 · 2026-11-20
 
 状态：部分资料缺失
 
-美股交易日：2026-11-18  
-实际生成：2026-11-19T07:46:13.678569+00:00  
-行情截至：2026-11-19T07:46:13.678569+00:00  
+美股交易日：2026-11-19  
+实际生成：2026-11-20T07:38:27.437992+00:00  
+行情截至：2026-11-20T07:38:27.437992+00:00  
 最近成功更新：—
 
 > 本期资料不完整。报告日期不代表缺失行情已更新，详见数据缺失说明。
@@ -13,18 +13,18 @@
 
 | 标的 | 价格 / 美元 | 日变动 | 成交量 | 行情时点 | 来源 |
 | --- | ---: | ---: | ---: | --- | --- |
-| MU | $705.27 | -1.00% | 26,936,272 | 2026-11-18T21:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&range=3mo&includePrePost=false>) |
-| MRNA | $196.79 | -4.84% | 6,912,807 | 2026-11-18T21:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/MRNA?interval=1d&range=3mo&includePrePost=false>) |
-| SPY | $730.20 | -0.31% | 50,353,335 | 2026-11-18T21:00:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/SPY?interval=1d&range=3mo&includePrePost=false>) |
-| QQQ | $659.51 | +0.39% | 43,357,952 | 2026-11-18T21:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/QQQ?interval=1d&range=3mo&includePrePost=false>) |
-| SOXX | $141.85 | +0.28% | 32,974,002 | 2026-11-18T21:00:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/SOXX?interval=1d&range=3mo&includePrePost=false>) |
+| MU | $690.44 | -2.10% | 34,838,782 | 2026-11-19T21:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&range=3mo&includePrePost=false>) |
+| MRNA | $199.33 | +1.29% | 8,175,759 | 2026-11-19T21:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/MRNA?interval=1d&range=3mo&includePrePost=false>) |
+| SPY | $715.87 | -1.96% | 76,112,413 | 2026-11-19T21:00:00+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/SPY?interval=1d&range=3mo&includePrePost=false>) |
+| QQQ | $645.04 | -2.19% | 70,328,281 | 2026-11-19T21:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/QQQ?interval=1d&range=3mo&includePrePost=false>) |
+| SOXX | $137.95 | -2.75% | 40,752,666 | 2026-11-19T21:00:01+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/SOXX?interval=1d&range=3mo&includePrePost=false>) |
 
 ## 黄金与布伦特 · 期货口径
 
 | 标的 | 价格 / 美元 | 日变动 | 成交量 | 行情时点 | 来源 |
 | --- | ---: | ---: | ---: | --- | --- |
-| GC=F | $3,735.50 | -0.17% | 57,321 | 2026-11-19T07:36:11+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?interval=1d&range=3mo&includePrePost=false>) |
-| BZ=F | $89.37 | -2.81% | 2,646 | 2026-11-19T07:35:06+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=3mo&includePrePost=false>) |
+| GC=F | $3,550.40 | -3.67% | 125,494 | 2026-11-20T07:28:27+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?interval=1d&range=3mo&includePrePost=false>) |
+| BZ=F | $89.98 | -2.17% | 2,313 | 2026-11-20T07:28:16+00:00 | [行情来源](<https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=3mo&includePrePost=false>) |
 
 期货不等于现货；合约换月可能影响价格及收益可比性。
 
@@ -34,16 +34,16 @@ Yahoo 当日涨幅榜最多 250 个样本中符合条件的前 10
 
 | # | 股票 | 收盘价 | 涨幅 | 成交量 | 成交额 / 美元 | 市值 / 美元 | 催化 / 来源 |
 | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| 1 | TENB · Tenable Holdings, Inc. | $44.68 | +15.75% | 4,894,703 | $218,695,330.04（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $4,669,400,576.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 2 | MFP · Midera Food Processing, Inc. | $48.28 | +13.95% | 855,623 | $41,309,478.44（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $2,183,726,336.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 3 | QLYS · Qualys, Inc. | $197.24 | +12.92% | 1,247,555 | $246,067,748.20（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $6,885,533,184.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 4 | NTSK · Netskope, Inc. | $23.50 | +12.73% | 6,551,838 | $154,000,952.19（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $9,603,854,336.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 5 | FSLY · Fastly, Inc. | $17.90 | +12.58% | 9,899,561 | $177,202,141.90（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $2,885,479,936.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 6 | OKTA · Okta, Inc. | $195.61 | +12.07% | 5,243,743 | $1,025,728,568.23（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $34,196,721,664.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 7 | ATEN · A10 Networks, Inc. | $32.36 | +10.52% | 1,859,490 | $60,173,096.40（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $2,331,587,840.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 8 | S · SentinelOne, Inc. | $23.34 | +10.35% | 11,139,689 | $260,000,341.26（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $8,123,466,752.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 9 | SAIL · SailPoint, Inc. | $22.25 | +10.26% | 5,362,194 | $119,308,816.50（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $12,702,783,488.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
-| 10 | PANW · Palo Alto Networks, Inc. | $339.92 | +9.90% | 16,467,556 | $5,597,651,635.52（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $278,316,875,776.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 1 | INSM · Insmed Incorporated | $144.46 | +20.58% | 14,394,641 | $2,079,449,838.86（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $31,691,679,744.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 2 | ANT · Anthropic, PBC | $97.17 | +17.07% | 851,818,130 | $82,771,167,692.10（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $1,271,631,970,304.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 3 | TU · TELUS Corporation | $10.78 | +13.35% | 28,223,340 | $304,247,605.20（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $17,140,199,424.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 4 | PDD · PDD Holdings Inc. | $86.00 | +11.04% | 22,768,681 | $1,958,106,566.00（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $122,412,097,536.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 5 | VVV · Valvoline Inc. | $36.84 | +10.40% | 8,923,180 | $328,729,951.20（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $4,698,429,440.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 6 | AMBA · Ambarella, Inc. | $58.93 | +7.85% | 2,524,501 | $148,768,843.93（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $2,601,227,520.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 7 | DPC · DPC Holdings PLC | $34.18 | +7.08% | 2,228,863 | $76,182,537.34（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $5,106,253,824.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 8 | PANW · Palo Alto Networks, Inc. | $361.73 | +6.42% | 19,109,488 | $6,912,475,094.24（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $296,174,288,896.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 9 | BHVN · Biohaven Ltd. | $13.65 | +5.81% | 3,261,960 | $44,525,754.00（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $2,061,952,384.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
+| 10 | OKTA · Okta, Inc. | $206.85 | +5.75% | 6,145,873 | $1,271,273,830.05（收盘/最新常规报价乘以成交量的估算，并非实际逐笔成交额） | $36,161,708,032.00 | 未核实；不因涨幅推断上涨原因 · [行情来源](<https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?scrIds=day_gainers&count=250>) |
 
 - 仅为 Yahoo day\_gainers 有限样本，不能称为过滤后的全市场前 10。
 - EQUITY 分类包含普通股和 ADR，但不能完全识别优先股等特殊证券；需核查证券类型。
